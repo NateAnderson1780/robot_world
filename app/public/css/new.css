@@ -1,0 +1,13 @@
+#nav {
+  background-color: black;
+}
+
+img {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+h3 {
+  text-align:left;
+}
+

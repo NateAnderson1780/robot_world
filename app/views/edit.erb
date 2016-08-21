@@ -1,0 +1,21 @@
+<a href="/robots">Robot Index</a>
+
+<form action="/robots/<%= @robot.id %>" method="POST">
+  <input type="hidden" name="_method" value="PUT" />
+  <label for="name">Update Name: </label>
+  <input type="text" name="robot[name]" value="<%= @robot.name %>" id="name"/>
+  <label for="city">Update City: </label>
+  <textarea name="robot[city]" id="city"><%= @robot.city %></textarea>
+  <label for="state">Update State: </label>
+  <textarea name="robot[state]" id="state"><%= @robot.state %></textarea>
+  <label for="state">Update Avatar: </label>
+  <textarea name="robot[avatar]" id="avatar"><%= @robot.avatar %></textarea>
+  <label for="state">Update Birthdate: </label>
+  <textarea name="robot[birthdate]" id="birthdate"><%= @robot.birthdate %></textarea>
+  <label for="state">Update Date Hired: </label>
+  <textarea name="robot[date_hired]" id="date_hired"><%= @robot.date_hired %></textarea>
+  <label for="state">Update Department: </label>
+  <textarea name="robot[department]" id="department"><%= @robot.city %></textarea>
+  <input type="submit" id="submit"/>
+</form>
+

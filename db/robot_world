@@ -1,0 +1,19 @@
+---
+robots:
+- id: 1
+  name: Roboto!
+  city: Denver
+  state: Colorado
+  avatar: TBD
+  birthdate: 1-7-80
+  date_hired: 3-5-2000
+  department: Denver
+- id: 4
+  name: Mr Robot
+  city: Los Angeles
+  state: California
+  avatar: Christian Slater
+  birthdate: 7-8-90
+  date_hired: 10-11-12
+  department: Hacking
+total: 5
