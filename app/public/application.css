@@ -5,6 +5,10 @@ body {
   background-position: 40% -25%; 
 }
 
+p {
+  color: purple;
+}
+
 
 /*#black {
   background-color: black;

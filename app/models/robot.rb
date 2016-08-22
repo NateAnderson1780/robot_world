@@ -20,4 +20,8 @@ class Robot
     @date_hired = data["date_hired"]
     @department = data["department"]
   end
+  
+  def age 
+    116 - @birthdate[-2..-1].to_i 
+  end
 end

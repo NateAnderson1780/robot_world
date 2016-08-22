@@ -52,5 +52,10 @@ class RobotWorld
   def destroy_all
     database.execute("DELETE FROM robots;")
   end
+  
+  def average_robot_age
+    total_age = all.map { |robot| robot.age }.reduce(:+)
+    total_age / all.count
+  end
 
 end
