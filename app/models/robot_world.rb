@@ -57,5 +57,19 @@ class RobotWorld
     total_age = all.map { |robot| robot.age }.reduce(:+)
     total_age / all.count
   end
+  
+  def hiring_year_of_robots
+    if years_robots_were_hired.count == 1 
+      "Our robot was hired in #{years_robots_were_hired.join}"
+    else
+      "Our robots were hired in #{years_robots_were_hired.first} and #{years_robots_were_hired.last}"
+    end
+  end
+  
+  def years_robots_were_hired
+    robot_hiring_years = all.map do |robot|
+      robot.date_hired[-2..-1] 
+    end
+  end
 
 end
