@@ -18,3 +18,5 @@ class RobotTest < Minitest::Test
     assert_equal "HR", robot.department 
   end
 end
+
+# added comment
