@@ -19,4 +19,3 @@ class RobotTest < Minitest::Test
   end
 end
 
-# added comment
